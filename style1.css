@@ -1,0 +1,1150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.all{
+    background-image: url(background.png);
+    height: 81vh;
+    vertical-align: middle;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0008;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+.part1 img{
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.part2 .home{
+    display: flex;
+    justify-content: space-between;
+}
+.part2 .home ul{
+    display: flex;
+}
+.part2 .home ul li{
+    list-style-type: none;
+    font-size: 17px;
+    margin-left: 25px;
+    
+}
+.part2 .home ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.85);
+    padding: 10px;
+    width: fit-content;
+
+    
+    
+}
+.search .third ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 28px;
+    font-weight: 700;
+}
+.search .third ul{
+    display: flex;
+}
+.search .third ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.third img{
+    width: 37px;
+    margin-left: 45px;
+    
+}
+
+
+.part3 ul{
+    display: flex;
+    height: 10px;
+}
+.part3 ul li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.part3 ul li:hover{
+    text-decoration: 1px underline #fff;
+}
+.part3 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.part3{
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+.contact:hover {
+    text-decoration: 1px underline #FFF;
+}
+
+ /* sub-1 */
+
+ .sub-1{
+    display: none;
+ }
+
+.home ul li:hover .sub-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 60px;
+    height: fit-content;
+    padding-bottom: 10px;
+    
+}
+
+.home ul li:hover .sub-1 ul{
+    display: block;
+
+}
+.home ul li:hover .sub-1 ul li:hover{
+    border-bottom: 1px solid black;
+    width: fit-content;
+
+}
+.home ul li:hover .pro{
+    display: flex;
+    justify-content: space-between;
+}
+.home ul li:hover .pro .whad{
+    margin-left: 5rem;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.home ul li:hover{
+    color: #313030;
+}
+.home ul :hover .ul{
+    line-height: 30px;
+}
+
+/* sun-2 */
+
+.sub-2{
+    display: none;
+}
+.home ul li:hover .sub-2{
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.home ul li:hover .sub-2 .un{
+    display: flex;
+
+}
+.home ul li:hover .sub-2 .deux{
+    margin-top: 25px;
+    margin-left: 17px;
+}
+.home ul li:hover .sub-2 .un h5{
+    margin-left: 80px;
+    
+    
+   
+}
+.home ul li:hover .sub-2 .deux h5{
+
+    width: fit-content;
+}
+
+/* sub-3 */
+
+.sub-3{
+    display: none;
+}
+.home ul li:hover .sub-3{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 25px 20px 25px 1px;
+
+}
+.home ul li:hover .sub-3 .trois{
+    display: flex;
+}
+.home ul li:hover .sub-3 h5{
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+i{
+    color: green;
+    font-size: 13px;
+    padding-left: 5px;
+}
+.fa-sharp{
+    margin-right: 10px;
+}
+hr{
+    margin-top: 10px;
+    color: #fff4f4;
+}
+
+/* les searshes ************************** */
+
+.sub-4{
+    display: none;
+}
+ul li:hover .sub-4{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    left: 22.5%;
+    margin-top: 18px;
+}
+ul li:hover .tout{
+    display: flex;
+}
+ul li:hover .tout .par1{
+    margin-left: 20px;
+    border-right: 1px solid rgb(124, 123, 123);
+    padding-right: 20px;
+    height: fit-content;
+}
+ul li:hover .tout .par1:last-child{
+    border: none;
+}
+ul li:hover .tout .m1{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+ul li:hover .tout .m1 img{
+    width: 32px;
+}
+ul li:hover .tout .m1 h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.fa-angle-right{
+    color: #ff7800;
+    font-size: 20px;
+}
+
+/* part2 espace de stager ***************************** */
+.sub-5{
+    display: none;
+}
+ul li:hover .sub-5{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    padding-top: 10px;
+    height: fit-content;
+    margin-top: 18px;
+    margin-right: 100px;
+    left: 22.5%;
+    padding-bottom: 20px;
+}
+ul li:hover .tout .par2{
+    margin-left: 20px;
+    border-right: 1px solid rgb(124, 123, 123);
+    padding-right: 20px;
+    height: fit-content;
+}
+ul li:hover .tout .par2:last-child{
+    border: none;
+}
+ul li:hover .tout .m2{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 18px;
+}
+ul li:hover .tout .m2 ul{
+    display: block;
+    margin-left: 20px;
+}
+ul li:hover .tout .m2 ul li{
+    list-style-type:square;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 10px;
+ 
+}
+ul li:hover .m2 img{
+    width: 28px;
+}
+ul li:hover .m2 h6{
+    font-weight: normal;
+    font-size: 15px;
+}
+ul li:hover .m2 .dd h5{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* section 2 *************************************** */
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+.formation ul{
+    list-style-type: none;
+    margin-left: 13px;
+}
+.formation .ab{
+    display: flex;
+    align-items: center;
+}
+.formation h3{
+    color: #ff7800;
+}
+.stagaire h3{
+    color: #40c3d5;
+}
+.entreprise h3{
+    color: #b2bd00;
+}
+
+.stagaire  ul{
+    list-style-type: none;
+    margin-left: 13px;
+}
+.stagaire  .ab{
+    display: flex;
+    align-items: center;
+}
+.entreprise ul{
+    list-style-type: none;
+    margin-left: 13px;
+}
+.entreprise .ab{
+    display: flex;
+    align-items: center;
+}
+.formation{
+    -webkit-box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    padding: 25px;
+    background-color: white;
+    height: 270px;
+}
+.stagaire{
+    -webkit-box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    padding: 25px;
+    background-color: white;
+    height: 270px;
+}
+.entreprise{
+    -webkit-box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    padding: 25px;
+    background-color: white;
+    height: 270px;
+}
+
+.formation .ab img{
+         padding-left: 30px;
+}
+.entreprise .ab img{
+    padding-left: 60px;
+}
+.stagaire .ab img{
+    padding-left: 105px;
+}
+
+.entreprise ul li{
+    margin-top: 20px;
+    transition: transform 0.5s;
+    color: #313131;
+}
+.stagaire ul li{
+    margin-top: 20px;
+    transition: transform 0.5s;
+    color: #313131;
+}
+.formation ul li{
+    margin-top: 20px;
+    transition: transform 0.5s;
+    color: #313131;
+}
+
+
+.formation ul li:hover{
+    text-decoration: 1px underline;
+    cursor: pointer;
+    transform:translateX(3px);
+}
+.stagaire ul li:hover{
+    text-decoration: 1px underline;
+    cursor: pointer;
+    transform:translateX(3px);
+}
+.entreprise ul li:hover{
+    text-decoration: 1px underline;
+    cursor: pointer;
+    transform:translateX(3px);
+}
+
+ /* button */
+.formation .button{
+    align-items: center;
+    text-align: center;
+    margin-top: 33px;
+    background-color: #ff7800;
+    transition: 0.5s;
+}
+.formation .button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.formation .button h5{
+    padding: 7px 0px 7px 0px;
+    color: white;
+    border: none;
+}
+.formation .button h5:hover{
+    color: #ff7800;
+}
+
+.stagaire .button{
+    align-items: center;
+    text-align: center;
+    margin-top: 33px;
+    background-color: #40c3d5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.stagaire .button:hover{
+    background-color: #fff;
+}
+.stagaire .button h5{
+    padding: 7px 0px 7px 0px;
+    color: white;
+    border: none;
+}
+.stagaire .button h5:hover{
+    color: #40c3d5;
+}
+
+.entreprise .button{
+    align-items: center;
+    text-align: center;
+    margin-top: 33px;
+    background-color: #b2bd00;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.entreprise .button:hover{
+    background-color: #fff;
+}
+.entreprise .button h5{
+    padding: 7px 0px 7px 0px;
+    color: white;
+    border: none;
+}
+.entreprise .button h5:hover{
+    color: #b2bd00;
+}
+
+/* les appplication */
+.app{
+    position: fixed;
+    align-items: center;
+    margin-top: 10%;
+}
+.lesapp{
+    margin-top: 10px;
+}
+.lesapp a{
+    display: block;
+    padding-top: -2px;
+}
+.inscription{
+    display: flex;
+    background-color: #008245;
+    width: fit-content;
+    align-items: center;
+    padding: 5px;
+}
+.inscription img{
+    width: 30px;
+    height: 30px;
+}
+.inscription p{
+    color: white;
+    font-size: 14px;
+    padding: 0px 3px 0px 3px;
+}
+
+/* numbers ********************************* */
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+}
+.s1{
+    text-align: center;
+    cursor: pointer;
+}
+.s1 h2{
+    color: #565656;
+
+}
+.s1 h5{
+    color: #565656 ;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+.s1 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(46, 100, 150);
+    transition: transform 0.5s;
+}
+.s1 h1:hover{
+    transform: scale(1.3);
+}
+.s1 h2{
+    font-size: 30px;
+}
+
+.s1 h5:hover{
+    transform: scale(1.01);
+}
+.marc h1{
+    font-size: 50px;
+    font-family: "Helvetica Neue LT Std";
+    color: #d0d0d0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2;
+    display: block;
+
+    position: relative;
+    padding-left: 10%;
+    margin-bottom: 18px;
+    -webkit-transform: scale(1,1.3);
+
+    margin-top: 100px;
+}
+.stu img{
+    width: 260px;
+}
+.stu h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+
+}
+.stu h3 span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.student{
+    display: flex;
+    background-color: #46c5c5;
+    align-items: center;
+    justify-content: center;
+}
+.stu{
+    padding-left: 50px;
+    align-items: center;
+    text-align: center;
+}
+.stu h3:hover{
+    text-decoration: 2px underline white;
+}
+
+/* marc2 */
+.marc2 h1{
+    font-size: 50px;
+    color: #d0d0d0;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    margin-top: 35px;
+
+     
+}
+
+/* les photo */
+
+.wrapper{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    background: red;
+    position: relative;
+    width: 580px;
+    height: 370px;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+    padding: 1rem 2rem;
+    margin: 10px;
+    padding: 10px;
+}
+.card:hover{
+    transform: translatey(1px);
+}
+.card::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgb(13, 137, 168));
+    z-index: 1;
+    transition: 0.5s all;
+    opacity: 0;
+    
+}
+.card:hover:before{
+    opacity: 1;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.card .info{
+    position: relative;
+    z-index: 1;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s all;
+    text-align: center;
+    margin-left: 15%;
+}
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0);
+}
+footer{
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+.info p{
+    text-align: center;
+}
+.info .btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+}
+.para{
+    margin-bottom: 30px;
+}
+.para p{
+    margin: 15px;
+    font-size: 17px;
+}
+.but{
+    margin-bottom: 40px;
+}
+
+/* neuveaty *********************************** */
+.neuv{
+    -webkit-box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+    margin-top: 20px;
+
+}
+.marc3 h1{
+    font-size: 50px;
+    color: #d0d0d0;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    margin-top: 35px;
+}
+
+.letous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.totale{
+    display: flex;
+}
+
+.capiter img{
+    width: 550px;
+    height: 400px;
+    cursor: progress;
+}
+.tt p{
+    color: #404040;
+    font-size: 15px;
+    line-height: 25px;
+    word-spacing: 4px;
+    padding: 10px 0 10px 22px;
+    cursor: pointer;
+}
+.tt h5{
+    color: #0059a1;
+    font-size: 14px;
+    font-family: "Helvetica";
+    line-height: 1.174;
+    text-align: justify;
+    padding-left: 22px;
+   
+}
+.mawdo3{
+    margin: 30px;
+}
+.titre h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.titre{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0;
+ 
+}
+.aa{
+     cursor: pointer;
+}
+.botten a{
+    text-decoration: none;
+    color: #0059a1;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: 600;
+}
+.botten button{
+    background-color: #ff7800;
+    color: #0059a1;
+    padding: 10px 35px 10px 35px;
+    border: none;
+}
+.botten{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+.botten button:hover{
+    background-color: transparent;
+    color: #ff7800;
+    border: 2px solid #ff7800;
+    padding: 8px 33px 8px 33px;
+ 
+}
+
+/* L'OFPPT EN 360° */
+
+.totale2{
+   display: flex;
+   justify-content: center;
+}
+
+.marc4 h1{
+    font-size: 50px;
+    color: #d0d0d0;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    margin-top: 35px;
+}
+
+.wrappers{
+    display: flex;
+    width: 77%;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    position: relative;
+    background-color: red;
+    width: 580px;
+    height: 270px;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+    padding: 1rem 2rem;
+    margin: 10px;
+    padding: 10px;  
+}
+.cards:hover{
+    transform: translateY(1px);
+}
+.cards:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #40c4d50b, rgba(5, 158, 175, 0.805));
+    z-index: 1;
+    transition: 0.3s all;
+    opacity: 0;
+}
+.cards:hover:before{
+    opacity: 1;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.infos{
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    width: 100%;
+    
+   
+
+
+}
+.infos p{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    padding: 7px 12px;
+    display: block;
+    opacity: 1;
+    background-color: #40c3d56b;
+    
+
+
+}
+.hi{
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.hii{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 12px;
+}
+.hh{
+    padding-left: 12%;
+}
+
+
+
+/* COOPÉRATION INTERNATIONALE */
+
+.marc5 h1{
+    font-size: 50px;
+    color: #d0d0d0;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    margin-top: 35px;
+}
+.cooperation{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    width: 77%;
+    margin: auto;
+    margin-top: 20px;
+}
+.txt .ttx p{
+   letter-spacing: 1px;
+   word-spacing: 3px;
+   font-size: 16px;
+   width: 100%;
+}
+.txt{
+    padding-left: 5%;
+}
+.ttx{
+    line-height: 20px;
+}
+.ttr{
+    color: #2c3e50;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 16.5px;
+    font-family: sans-serif;
+}
+.txt a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+/* Reclamation ****************************************** */
+
+.marc6 .h11{
+    display: flex;
+
+    
+}
+.marc6 h1{
+    font-size: 50px;
+    color: #d0d0d0;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    margin-top: 35px;
+
+}
+.reclamation{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    background: #c5d9e2 ;
+    width: 50%;
+    border-radius: 3px;
+   
+}
+.chat .por p{
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+.one_one p{
+    align-items: center;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+.one_one{
+    align-items: center;
+}
+
+.bt{
+    margin: 10px;
+    display: block;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: #313131;
+    color: #ffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ button:hover{
+    background: none;
+
+}
+.por{
+margin-left: 60px;
+}
+.ppp{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 4.6px 0.4px rgb(0 0 0 / 19%);
+    margin: 10px;
+    padding: 10px;
+}
+.por button:hover{
+    background: none;
+    color: #313131;
+    cursor: pointer;
+}
+
+/* Finale ********************************************* */
+
+.final{
+    background-color: #313131;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 20px;
+
+}
+
+.letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    gap: 17px;
+}
+.letter h3{
+    color: white;
+}
+.letter button{
+    color: white;
+    background-color: #0059a1;
+    padding: 11px 20px 11px 20px;
+    font-size: 17px;
+    border: none;
+}
+.fa-paper-plane{
+   color: white; 
+   font-size: 20px;
+   padding-right: 1px;
+}
+.fa-paper-plane:hover{
+     color: #0059a1;
+     
+}
+.letter button:hover{
+    background-color: transparent;
+    color: #0059a1;
+    border: 2px solid #0059a1;
+    padding: 9px 18px 9px 19px;
+
+}
+.letter input{
+    padding: 11px 300px 11px 20px;
+    font-size: 17px;
+    border: none;
+    text-decoration: none;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.list h2{
+    color: #d0d0d0;
+    font-size: 22px;
+}
+.list ul li{
+    color: #fffcfc;
+    list-style-type:square;
+    padding: 5px;
+    transition: transform 0.6s ease-in-out;
+    cursor: pointer;
+}
+.list ul li:hover{
+    transform: translateX(3px);
+    border-bottom: 2px solid white;
+    padding-bottom: 0;
+    width: fit-content;
+}
+.list ul{
+    padding-top: 15px;
+}
+.im{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 20px;
+}
+.deux_list{
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    height: fit-content;
+    position: relative;
+}
+.iclude p{
+    border-right: 3px solid white;
+    color: white;
+    font-size: 17px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.iclude p:last-child{
+    border: none;
+}
+.iclude{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+.post p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding-top: 6px;
+}
+
+
+.end{
+    background-color: #08aca2;
+    padding: 10px;
+
+}
+.end p{
+    color: white;
+    text-align: center;
+}
+.end .myway{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
